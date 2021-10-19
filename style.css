@@ -1,8 +1,19 @@
+/* some globals */
 body {
     margin: 0px;
     font-family: 'Times New Roman', Times, serif;
 }
 
+button {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+/* navagation bar */ 
 .navbar {
     padding-left: 125px;
     padding-right: 125px;
@@ -30,6 +41,7 @@ body {
     color: #E5E7EB 
 }
 
+/* hero section */
 .hero {
     background-color: #1F2937;
     display: flex;
@@ -67,6 +79,7 @@ body {
     height: 300px;
 }
 
+/* link section */
 .information img {
     width: 125px;
     height: 125px;
@@ -79,16 +92,6 @@ body {
 .information img:hover {
     border-color: #3882f6;
     border-width: 6px;
-}
-
-button {
-    background-color: #3882f6;
-    color: #E5E7EB;
-    width: 100px;
-    height: 30px;
-    border-radius: 8px;
-    border-style: none;
-    
 }
 
 .information {
@@ -116,6 +119,7 @@ button {
     max-width: 125px;
 }
 
+/* testamonial */
 .quoteBox {
     background-color: #e5e7eb;
     display: flex;
@@ -139,6 +143,7 @@ button {
     font-size: 20px;
 }
 
+/* signup */
 .signup {
     margin: 50px 125px;
     padding: 25px 50px;
@@ -166,6 +171,7 @@ button {
      color: #E5E7EB;
 }
 
+/* footer */
 .footer {
      text-align: center;
      background-color: #1f2937;
